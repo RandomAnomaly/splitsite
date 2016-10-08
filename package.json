@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RandomAnomaly/splitsite/issues"
   },
-  "homepage": "https://github.com/RandomAnomaly/splitsite#readme"
+  "homepage": "https://github.com/RandomAnomaly/splitsite#readme",
+  "dependencies": {
+    "waypoints": "^4.0.1"
+  }
 }
