@@ -1,0 +1,13 @@
+.splitpagesection {
+    height:100vh;
+}
+
+#section1 {
+    background-color: grey;
+    height:200vh;
+}
+
+#showoff {
+    height:100vh;
+    background-color:green;
+}
