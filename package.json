@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/RandomAnomaly/splitsite#readme",
   "dependencies": {
-    "waypoints": "^4.0.1"
+    "angular-scroll": "^1.0.0"
   }
 }

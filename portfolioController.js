@@ -5,16 +5,9 @@ app.controller('portfolioController', function ($scope) {
     var waypoint = new Waypoint({
         element: document.getElementById('section4'),
         handler: function (direction) {
-            console.log('Scrolled to waypoint!')
+            // $scope.testText = "Changed"
+            // $scope.$digest;
         }
     })
-
-    // var waypoint = new Waypoint({
-    //     element: document.getElementById('section4'),
-    //     handler: function(direction){
-    //         console.log('Scrolled to waypoint!')
-    //     }
-    // });
-
 
 });
