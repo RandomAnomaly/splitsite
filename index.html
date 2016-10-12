@@ -2,25 +2,29 @@
 <html ng-app="portfolio">
 
 <head>
-    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
-        crossorigin="anonymous"></script>-->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <!--<script src="node_modules/waypoints/src/waypoint.js"></script>-->
-    <script src="node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
+    <!--<script src="node_modules/angular-scroll/angular-scroll.min.js"></script>-->
+    <!--<script src="node_modules/waypoints/lib/noframework.waypoints.min.js"></script>-->
     <script src="app.js"></script>
     <script src="portfolioController.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+        crossorigin="anonymous"></script>
+        <script src="portfolioDirectives.js"></script>
 </head>
 
-<body ng-controller="portfolioController">
+<body scroll ng-controller="portfolioController">
 
     <div id="section1" class="splitpagesection col-xs-8">
 
     </div>
 
     <div id="section2" class="splitpagesection col-xs-4">
-        <p>Software developer</p>
+        <p du-scrollspy>Software developer</p>
         <p></p>
     </div>
 
@@ -28,7 +32,7 @@
         </div>-->
 
     <div id="section4" class="splitpagesection col-xs-4">
-        <p>Classically trained</p>
+        <a href="#classically"></a><p>Classically trained</p>
     </div>
 
     <div id="showoff" class="affix col-xs-8">
